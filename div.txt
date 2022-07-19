@@ -1,0 +1,23 @@
+Header
+--header_left
+---header-title
+---header-paragraph
+---button
+--header__right
+---image
+
+
+Section
+--aside (nev)
+--main
+--article
+--image
+---category
+---title
+---icons
+
+Footer
+--title
+--nevbar
+---social 
+
