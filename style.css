@@ -16,7 +16,7 @@ body {
     margin: 0 130px;
 }
 
-
+/* header css start */
 
 
 header {
@@ -57,11 +57,19 @@ header {
     border-radius: 5px;
 }
 
+.header__left button:hover {
+    color: red;
+    background-color: white;
+    padding: 10px 20px;
+    transition: color 1s, padding 2s;
+}
+
 .header__right {
     padding-left: 70px;
 
 }
 
+/* section css start */
 section {
     display: flex;
     margin-top: 55px !important;
@@ -103,13 +111,19 @@ aside ul li a {
     color: white;
 }
 
+
+/* aside css end */
+
+/* main css start */
 main {
     padding: 25px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    width: 100%;
 }
 
+/* card css  */
 .card {
     border: 1px grey solid;
     border-radius: 4px;
@@ -153,10 +167,14 @@ main {
     margin-right: 15px;
 }
 
+
+/* view button for tablet */
 .view {
     visibility: hidden;
 }
 
+
+/* footer css */
 footer {
     background-color: black;
     color: white;
@@ -208,6 +226,21 @@ footer hr {
     margin-right: 10px;
     background-color: white;
 
+}
+
+/* Upcoming html  CSS */
+.vs-match {
+    padding: 30px 5px;
+    text-align: center;
+}
+
+.card-vs {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-vs p {
+    font-weight: 700;
 }
 
 
@@ -360,6 +393,14 @@ footer hr {
         margin-top: 30px;
     }
 
+    /* Upcoming html  CSS */
+
+    .card-vs img {
+        width: 42%;
+    }
+
+
+
 }
 
 
@@ -458,6 +499,16 @@ footer hr {
 
     .social {
         margin-top: 30px;
+    }
+
+    /* upcoming CSS */
+
+    .vs-match {
+        display: block;
+    }
+
+    .card-vs {
+        display: flex;
     }
 
 }
