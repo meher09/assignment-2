@@ -6,9 +6,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    /* font-family: 'Quicksand', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Wendy One', sans-serif; */
 }
 
 .flex-container {
@@ -156,6 +153,10 @@ main {
     margin-right: 15px;
 }
 
+.view {
+    display: none;
+}
+
 footer {
     background-color: black;
     color: white;
@@ -207,6 +208,215 @@ footer hr {
     margin-right: 10px;
     background-color: white;
 
+}
 
 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    .mx-130 {
+        margin: 25px 15px;
+    }
+
+
+    header {
+        margin-top: 12px;
+        padding: 15px 25px 0;
+        border-radius: 10px;
+
+    }
+
+
+    .header__left {
+        padding-right: 5px;
+        width: 50%;
+
+    }
+
+    .header__left .title {
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 20px;
+
+    }
+
+    .header__left p {
+        font-size: 10px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    .header__left button {
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .header__right {
+        padding-left: 25px;
+        width: 50%;
+
+    }
+
+    .header__right img {
+        width: 90%;
+    }
+
+    section {
+        display: block;
+        margin-top: 35px !important;
+    }
+
+    aside {
+
+        width: 95%;
+        padding: 15px 0;
+
+
+    }
+
+    aside ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        list-style: none;
+        border-radius: 5px;
+        padding: 18px;
+    }
+
+    aside ul li {
+        background-color: white;
+        border: 1px black solid;
+        /* margin: 20px 25px; */
+        padding: 15px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    aside ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .active {
+        background-color: red;
+    }
+
+    .active a {
+        color: white;
+    }
+
+    main {
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .card {
+        border: 1px grey solid;
+        border-radius: 4px;
+
+    }
+
+    .card-image {
+        width: 100%;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-body a {
+        font-weight: 600;
+        border: 2px black solid;
+        border-radius: 3px;
+        padding: 3px 10px;
+
+    }
+
+    .card-title {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .card-footer {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .card-footer img {
+        padding-right: 5px;
+    }
+
+    .mr-15 {
+        margin-right: 15px;
+    }
+
+    .view {
+        width: 100%;
+        display: initial;
+        margin: 0 auto;
+
+    }
+
+    .view a {
+
+        text-align: center;
+
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 56px;
+        margin-top: 40px;
+    }
+
+    footer hr {
+        margin-bottom: 40px;
+        background-color: gray;
+        color: gray;
+    }
+
+    .footer-title {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu ul {
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .footer-menu ul li {
+        padding-right: 25px;
+    }
+
+    .footer-menu ul li a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .social {
+        margin-top: 50px;
+    }
+
+    .social a {
+        padding: 15px;
+        border: 1px white solid;
+        border-radius: 100%;
+        margin-right: 10px;
+
+    }
 }
