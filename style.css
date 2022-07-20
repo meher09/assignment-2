@@ -154,7 +154,7 @@ main {
 }
 
 .view {
-    display: none;
+    visibility: hidden;
 }
 
 footer {
@@ -222,8 +222,9 @@ footer hr {
 
     header {
         margin-top: 12px;
-        padding: 15px 25px 0;
+        padding: 15px 25px;
         border-radius: 10px;
+
 
     }
 
@@ -264,14 +265,13 @@ footer hr {
 
     section {
         display: block;
-        margin-top: 35px !important;
+        margin-top: -15px !important;
     }
 
     aside {
 
         width: 95%;
-        padding: 15px 0;
-
+        padding: 10px 0;
 
     }
 
@@ -282,30 +282,20 @@ footer hr {
         background-color: white;
         list-style: none;
         border-radius: 5px;
-        padding: 18px;
+        padding: 18px 0;
     }
 
     aside ul li {
         background-color: white;
-        border: 1px black solid;
-        /* margin: 20px 25px; */
-        padding: 15px;
+        border: 2px black solid;
+        font-size: 14px;
+        padding: 15px 40px;
         border-radius: 5px;
-        text-align: center;
-    }
 
-    aside ul li a {
-        text-decoration: none;
-        color: black;
-        font-weight: 500;
     }
 
     .active {
-        background-color: red;
-    }
-
-    .active a {
-        color: white;
+        padding: 15px 45px;
     }
 
     main {
@@ -315,108 +305,59 @@ footer hr {
         gap: 15px;
     }
 
-    .card {
-        border: 1px grey solid;
-        border-radius: 4px;
-
-    }
-
-    .card-image {
-        width: 100%;
-    }
-
-    .card-body {
-        padding: 10px;
-    }
-
-    .card-body a {
-        font-weight: 600;
-        border: 2px black solid;
-        border-radius: 3px;
-        padding: 3px 10px;
-
-    }
 
     .card-title {
         font-size: 18px;
         margin-top: 15px;
     }
 
-    .card-footer {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .card-footer img {
-        padding-right: 5px;
-    }
-
-    .mr-15 {
-        margin-right: 15px;
-    }
-
     .view {
-        width: 100%;
-        display: initial;
-        margin: 0 auto;
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
 
     }
 
     .view a {
-
-        text-align: center;
+        text-decoration: none;
+        border: 1px red solid;
+        color: white;
+        background-color: red;
+        padding: 5px 10px;
+        border-radius: 5px;
 
     }
 
     footer {
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 56px;
-        margin-top: 40px;
+        padding: 46px;
     }
 
     footer hr {
-        margin-bottom: 40px;
-        background-color: gray;
-        color: gray;
+        margin-bottom: 30px;
     }
 
     .footer-title {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .footer-menu {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
-    .footer-menu ul {
-        list-style: none;
-        align-items: center;
-        justify-content: center;
-
-    }
 
     .footer-menu ul li {
-        padding-right: 25px;
+        padding-right: 15px;
     }
 
     .footer-menu ul li a {
-        text-decoration: none;
-        color: white;
+        font-size: 10px;
 
     }
 
     .social {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
-    .social a {
-        padding: 15px;
-        border: 1px white solid;
-        border-radius: 100%;
-        margin-right: 10px;
-
-    }
 }
