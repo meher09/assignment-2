@@ -164,6 +164,12 @@ footer {
     margin-top: 40px;
 }
 
+footer hr {
+    margin-bottom: 40px;
+    background-color: gray;
+    color: gray;
+}
+
 .footer-title {
     margin-bottom: 30px;
 }
