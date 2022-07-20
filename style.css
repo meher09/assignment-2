@@ -155,3 +155,52 @@ main {
 .mr-15 {
     margin-right: 15px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 56px;
+    margin-top: 40px;
+}
+
+.footer-title {
+    margin-bottom: 30px;
+}
+
+.footer-menu {
+    margin-bottom: 30px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-menu ul li {
+    padding-right: 25px;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.social {
+    margin-top: 50px;
+}
+
+.social a {
+    color: black;
+    padding: 15px;
+    border: 1px white solid;
+    border-radius: 100%;
+    margin-right: 10px;
+    background-color: white;
+
+
+
+}
