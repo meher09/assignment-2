@@ -97,10 +97,18 @@ aside ul li {
     text-align: center;
 }
 
+aside ul li:hover {
+    background-color: red;
+}
+
 aside ul li a {
     text-decoration: none;
     color: black;
     font-weight: 500;
+}
+
+aside ul li a:hover {
+    color: #fff;
 }
 
 .active {
